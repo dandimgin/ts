@@ -1,0 +1,274 @@
+    *,
+    html {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #134B70;
+    }
+    
+    nav {
+        background-color: #0c324b;
+        display: flex;
+        color: #E0E0E0;
+        justify-content: space-between;
+        padding: 1rem 5rem;
+    }
+    
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 6px 0;
+        transition: all;
+        transition-duration: 300ms;
+        border-bottom: 1px solid #134b7000;
+    }
+    
+    nav ul li a:hover {
+        color: #134B70;
+        border-bottom: 1px solid #134B70;
+    }
+    
+    .logo-gi {
+        font-size: 2em;
+        padding: 0 10px;
+        transition: all;
+        transition-duration: 500ms;
+        border-bottom: 1px solid #134b7000;
+    }
+    
+    .logo-gi a:hover {
+        color: #E1306C;
+        border-bottom: 1px solid #E1306C;
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        background: #508C9B;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    .download-cv {
+        background: #508C9B;
+        border: #A0ECFF;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+    
+    .header {
+        text-align: center;
+        padding: 100px 20px;
+    }
+    
+    .header h1 {
+        font-size: 48px;
+        margin: 0;
+    }
+    
+    .header h2 {
+        font-size: 36px;
+        margin: 10px 0;
+    }
+    
+    .about {
+        background-color: #508C9B;
+        border-radius: 15px;
+        max-width: 900px;
+        padding: 40px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .about img {
+        border-radius: 50%;
+        border: 2px solid #FFFFFF;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .about .text {
+        max-width: 600px;
+    }
+    
+    .about .text h3 {
+        font-size: 24px;
+        margin: 0 0 10px 0;
+    }
+    
+    .about .text p {
+        font-size: 18px;
+        margin: 0 0 20px 0;
+    }
+    
+    .about .text a {
+        background-color: transparent;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    
+    .container-skills {
+        background-color: #ccc;
+        padding: 50px 20px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .container-skills h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    
+    .container-skills p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .skill {
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        padding: 20px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .skill img {
+        max-width: 80px;
+        max-height: 80px;
+        margin-bottom: 10px;
+    }
+    
+    .skill span {
+        color: #333;
+        font-size: 16px;
+    }
+    
+    .projects {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        background-color: #0c324b;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    .projects .header2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .projects .header h1 {
+        font-size: 2.5em;
+        margin: 0;
+    }
+    
+    .projects .header p {
+        font-size: 1.2em;
+        margin: 10px 0 0;
+    }
+    
+    .project {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        background-color: #134B70;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .project:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    
+    .project img {
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 100px;
+    }
+    
+    .project-content {
+        max-width: 600px;
+    }
+    
+    .project-content h2 {
+        font-size: 1.5em;
+        margin: 0 0 10px;
+        color: #fff;
+    }
+    
+    .project-content p {
+        font-size: 1em;
+        margin: 0 0 20px;
+        color: #fff;
+    }
+    
+    .project-content a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3C6382;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+    
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    footer form {
+        margin: 20px 0;
+    }
+    
+    footer input,
+    footer textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+    }
+    
+    footer textarea {
+        height: 100px;
+    }
+    
+    footer button {
+        background: #ff9800;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
